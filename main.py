@@ -1,7 +1,5 @@
 #!/usr/bin/env python3
 
-# FUCK YOU PYTHON
-
 from documentcloud import DocumentCloud
 from multiprocessing import Process
 
