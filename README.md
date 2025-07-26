@@ -1,6 +1,8 @@
 # Download Documents from DocumentCloud
 
-### Some boring mumbo jumbo:
+### Some background:
+
+Wrote this a while ago and looking through my github repos (this one is making me cringe so might relook at it at some point since it is kind of a bad script, but the api was a bit horrendous to work with at the time).
 
 I don't know what to name or call this, but here is my janky Python3 script to hopefully be useful to someone. This script uses the API on DocumentCloud to download documents based on searches and various other options including filtering by title and organizations. I don't know why, but I ran into a problem where I would get a 429 error and I concluded that it is due to the Access Token not being properly refreshed after about 5 minutes (This is the closest conclusion I got to after dealing with this till 4 AM). As far as I can tell, the wrapper wasn't doing this properly.
 
